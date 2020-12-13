@@ -1,0 +1,451 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: "Playfair Display", serif;
+  display: inline-block;
+}
+
+h2 {
+  color: aliceblue;
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: aliceblue;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+}
+
+p {
+  color: aliceblue;
+  line-height: 2;
+}
+
+a {
+  color: aliceblue;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #448ef0;
+}
+
+/* Navigation */
+
+.navbar {
+  position: relative;
+  background-color: rgb(97, 63, 219);
+  padding: 20px 10px;
+}
+
+.navbar > input, .navbar > label {
+  display: none;
+}
+
+/* Main */
+
+.footer {
+  position: relative;
+  padding: 10px 0px;
+  background-color: rgb(97, 63, 219);
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.footer a {
+  margin: 0 10px;
+}
+
+.sms {
+  color: aliceblue;
+  margin: 15px auto;
+}
+
+.follow {
+  margin-top: 7px;
+  font-size: 1.2em;
+  font-family: georgia, serif;
+  font-weight: bold;
+}
+
+.fa {
+  font-size: 250%;
+  padding: 8px;
+  color: aliceblue;
+}
+
+.logo {
+  font-size: 2.5rem;
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+}
+
+.logo > a:hover {
+  background-color: transparent;
+}
+
+.first {
+  color: rgb(236, 120, 211);
+}
+
+.buttons {
+  font-size: 26px;
+  margin-left: auto;
+  margin: 10px;
+  float: right;
+}
+
+.buttons > a {
+  height: 60px;
+  line-height: 60px;
+  margin: 0 3px;
+  padding: 5px 20px;
+}
+
+.home-image {
+  background: url("https://i.imgur.com/sK0MRzE.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 600px;
+  padding: 10px;
+}
+
+.text {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000;
+}
+
+.summary {
+  margin: 60px 0;
+}
+
+.summary-section {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+header {
+  text-align: center;
+  background: #3f20ad;
+  padding: 20px 0;
+}
+
+header > h1 {
+  margin: 0;
+}
+
+.contact-header {
+  text-align: center;
+  background: #3f20ad;
+  padding: 20px 0;
+}
+
+.contact-header > h1 {
+  margin: 0;
+}
+
+.contact-info {
+  text-align: center;
+  padding: 20px 0;
+  background: #ac98f5;
+  margin: 20px;
+}
+
+.contact-info span {
+  margin: 0 40px 0 40px;
+}
+
+.contact-us {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-us i {
+  font-size: 450%;
+  margin: 20px 0;
+}
+
+.contact-us p {
+  margin: 15px 25px;
+  font-size: 18px;
+}
+.contact-us > .info {
+  width: 33%;
+  float: left;
+}
+
+.contact-us > .bottom {
+  display: inline-block;
+}
+
+section.menu {
+  background: #555;
+  margin: 50px;
+  border: 20px solid black;
+  padding: 10px 20px;
+}
+
+section.menu > h2 {
+  margin: 0;
+  text-align: center;
+}
+
+section.menu > h3 {
+  text-align: center;
+}
+
+section.menu > p {
+  margin: 16px 26px 16px;
+  text-align: center;
+}
+
+hr {
+  margin: 20px 80px 30px;
+  border: none;
+  border-top: 0.15rem solid rgb(51, 192, 16);
+}
+
+.menu table {
+  color: aliceblue;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.menu td,
+.menu th {
+  padding: 10px 50px;
+}
+.menu th {
+  text-align: left;
+}
+
+.menu .price {
+  text-align: center;
+}
+
+.menu .toppings {
+  text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .navbar > .logo {
+    font-size: 30px;
+    display: block;
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px auto;
+  }
+
+  .navbar > label {
+    display: block;
+    float: right;
+    color: white;
+    margin: 12px 0;
+    font-size: 32px;
+  }
+
+  .navbar > #toggle-menu:checked ~ .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    z-index: 100;
+    left: 0;
+    padding: 0 10px 20px;
+    margin: 0;
+    background-color: rgb(97, 63, 219);
+  }
+
+  .navbar > .buttons {
+    font-size: 15px;
+    float: none;
+    display: none;
+    justify-content: center;
+    margin: 35px auto 0;
+  }
+
+  .navbar > .buttons a {
+    border: 1px solid aliceblue;
+    height: auto;
+    line-height: 15px;
+    margin: 5px auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  section.menu {
+    background: #555;
+    margin: 15px;
+    border: 10px solid black;
+    padding: 10px 10px;
+  }
+
+  .menu table {
+    width: 100%;
+  }
+
+  .menu .price {
+    text-align: right;
+  }
+
+  .menu td,
+  .menu th {
+    padding: 10px 10px;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .contact-header > h1 {
+    font-size: 40px;
+  }
+
+  .contact-info > h2 {
+    font-size: 25px;
+  }
+
+  .contact-info > p {
+    font-size: 15px;
+  }
+
+  .contact-us > .info {
+    width: 100%;
+    float: none;
+  }
+
+  .footer > a {
+    border-right: 1px solid aliceblue;
+    border-left: 1px solid aliceblue;
+    justify-content: center;
+    font-size: 12px;
+    padding: 1px 2px;
+  }
+
+  .terms > a {
+    font-weight: normal;
+    font-size: 10px;
+    display: block;
+    margin: 0 auto;
+    line-height: 0;
+  }
+
+  .terms > p {
+    margin: 0 auto;
+  }
+
+  .footer > p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .navbar > .logo {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    height: 0;
+    line-height: 0;
+    margin: 20px auto;
+  }
+
+  .navbar > .buttons {
+    font-size: 18px;
+    float: none;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 10px;
+  }
+
+  .navbar > .buttons a {
+    border: 2px solid aliceblue;
+    height: 0;
+    line-height: 0;
+    margin: 0 30px;
+    padding: 15px;
+  }
+
+  .contact-header > h1 {
+    font-size: 50px;
+  }
+
+  .contact-info > h2 {
+    font-size: 35px;
+  }
+
+  .contact-info > p {
+    font-size: 20px;
+  }
+
+  .contact-us > .info {
+    width: 100%;
+    float: none;
+  }
+
+  .footer > a {
+    border-right: 2px solid aliceblue;
+    border-left: 2px solid aliceblue;
+    justify-content: center;
+    font-size: 16px;
+    padding: 3px 2px;
+  }
+
+  .footer > .foot-nav {
+    margin: 10px auto 0;
+  }
+
+  .terms > a {
+    font-weight: normal;
+    font-size: 13px;
+    display: block;
+    line-height: 0;
+  }
+
+  .footer > .copy {
+    margin-bottom: 15px;
+  }
+
+  .terms > p {
+    margin: 0 auto;
+  }
+
+  .footer > p {
+    font-size: 12px;
+  }
+}
